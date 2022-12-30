@@ -1,1 +1,128 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
 
+.hero {
+    height: 40vh;
+    display: flex;
+    background-color: #1F2937;
+    padding:  0 40px 40px 40px;
+}
+
+#header {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+#hero-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+#secondary-text {
+    font-size: 18px;
+    color: #F9FAF8;
+}
+
+.vert-container {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.vert-container ul {
+    display: flex;
+    gap: 8px;
+    align-self: flex-end;
+    list-style: none;
+}
+
+.vert-container ul a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+#image {
+    background-color: gray;
+    height: 50%;
+    display: table;
+}
+
+#image p {
+    display: table-cell;
+    color: #E5E7EB;
+    text-align: center;
+    vertical-align: middle;
+}
+
+button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-size: 16px;
+    font-weight: 700;
+    height: 35px;
+    width: 115px;
+    border-color: #3882F6;
+    border-radius: 10px;
+}
+
+/* Second Section */
+
+.info {
+
+}
+
+#random-info {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    text-align: center;
+}
+
+.square-flex {
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.squares {
+    width: 150px;
+    text-align: center;
+}
+
+.square {
+    width: 150px;
+    height: 150px;
+    border: 5px solid #3882F6;
+    border-radius: 5%;
+    margin: 0 auto;
+}
+
+/* Third Section (Quote) */
+.quote {
+    background-color: #E5E7EB;
+    padding: 100px;
+}
+
+.quote .text {
+    font-size: 36px;
+    font-family: light italic;
+    color: #1F2937;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.author {
+    text-align: end;
+    width: 60%;
+    margin: 0 auto;
+    font-weight: 800;
+    font-size: 24px;
+}
